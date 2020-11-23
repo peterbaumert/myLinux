@@ -65,7 +65,7 @@ alias l='ls $LS_OPTIONS -lA'
 
 export THEME=/srv/bash/themes/agnoster-bash/agnoster.bash
 if [[ -f $THEME ]]; then
-    export DEFAULT_USER=root
+    export DEFAULT_USER=`whoami`
     source $THEME
 fi
 
