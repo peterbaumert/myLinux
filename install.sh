@@ -10,5 +10,5 @@ wget https://github.com/peterbaumert/myLinux/raw/main/~/.tmux.conf -O ~/.tmux.co
 wget https://github.com/peterbaumert/myLinux/raw/main/~/.tmux/hostname.bash -O ~/.tmux/hostname.bash
 chmod +x ~/.tmux/hostname.bash
 
-mkdir ~/.ssh
+mkdir -p ~/.ssh
 wget https://github.com/peterbaumert/myLinux/raw/main/~/.ssh/authorized_keys -O ~/.ssh/authorized_keys
