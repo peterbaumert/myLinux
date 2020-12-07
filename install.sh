@@ -10,5 +10,5 @@ chmod +x ~/.tmux/hostname.bash
 mkdir -p ~/.ssh
 wget https://github.com/peterbaumert/myLinux/raw/main/~/.ssh/authorized_keys -O ~/.ssh/authorized_keys
 
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 wget https://github.com/peterbaumert/myLinux/raw/main/~/.zshrc -O ~/.zshrc
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
